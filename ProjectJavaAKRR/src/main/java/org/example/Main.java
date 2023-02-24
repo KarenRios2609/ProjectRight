@@ -41,7 +41,7 @@ public class Main {
 
 
 
-        Scanner miescaner = new Scanner(System.in);
+        /*Scanner miescaner = new Scanner(System.in);
 
         String nombre = "";
         int edad = 0;
@@ -72,7 +72,88 @@ public class Main {
 
         double altura2 = altura * altura;
         double imc  = peso/altura2;
-        System.out.println("Tu IMC es: " + imc);
+        System.out.println("Tu IMC es: " + imc);*/
+
+        //Desarrollar un programa que le pida al usuario su nombre, apellido, domicilio, cuánto citizó en 2022, cuánto impuesto va a pagar.
+        //Declarar constante de ISR-12%
+
+        /*Scanner miescaner = new Scanner(System.in);
+
+        String nombre;
+        String apellido;
+        String domic;
+        double cotizacion;
+        final double isr = 0.12;
+
+
+        System.out.println("Ingresa tu nombre");
+        nombre = miescaner.nextLine();
+
+        System.out.println("Ingresa tu apellido");
+        apellido = miescaner.nextLine();
+
+        System.out.println("Ingresa tu domicilio");
+        domic = miescaner.nextLine();
+
+        System.out.println("Ingresa cuánto cotizaste en 2022 ");
+        cotizacion = miescaner.nextDouble();
+
+        System.out.println("Tu nombre es: " +nombre);
+
+        System.out.println("Tu apellido es: " +apellido);
+
+        System.out.println("Tu domicilio es: " +domic);
+
+        System.out.println("Tu cotización es: " +cotizacion);
+
+        double impuesto = cotizacion*isr;
+
+        System.out.println("Tu impuesto a pagar es: " +impuesto);*/
+
+       // 1.- pedir al usuario su nombre, apellido, domicilio, precio de su carro
+        //2.- calcular el impuesto de tenencia- 1.3% de impuesto
+
+        Scanner miescaner = new Scanner(System.in);
+
+        String nombre;
+        String apellido;
+        String domic;
+        double preciocarro;
+        final double impuesto = 0.013;
+
+        System.out.println("Ingresa tu nombre");
+        nombre = miescaner.nextLine();
+
+        System.out.println("Ingresa tu apellido");
+        apellido = miescaner.nextLine();
+
+        System.out.println("Ingresa tu domicilio");
+        domic = miescaner.nextLine();
+
+        System.out.println("Ingresa el precio de tu carro");
+        preciocarro = miescaner.nextDouble();
+
+        System.out.println("Tu nombre es: " +nombre);
+
+        System.out.println("Tu apellido es: " +apellido);
+
+        System.out.println("Tu domicilio es: " +domic);
+
+        System.out.println("El precio de tu carro es: " +preciocarro);
+
+        double impuesto2 = preciocarro*impuesto;
+
+        System.out.println("Tu impuesto de tenencia es: " +impuesto2);
+
+
+
+
+
+
+
+
+
+
 
 
 
