@@ -113,7 +113,7 @@ public class Main {
        // 1.- pedir al usuario su nombre, apellido, domicilio, precio de su carro
         //2.- calcular el impuesto de tenencia- 1.3% de impuesto
 
-        Scanner miescaner = new Scanner(System.in);
+        /*Scanner miescaner = new Scanner(System.in);
 
         String nombre;
         String apellido;
@@ -143,7 +143,17 @@ public class Main {
 
         double impuesto2 = preciocarro*impuesto;
 
-        System.out.println("Tu impuesto de tenencia es: " +impuesto2);
+        System.out.println("Tu impuesto de tenencia es: " +impuesto2);*/
+
+        int a = 10;
+        int b = 5;
+        int c = 3;
+
+        if(a>b){
+            System.out.println("a es mayor que b");
+        }else{
+            System.out.println("a no es mayor que b");
+        }
 
 
 
