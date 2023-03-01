@@ -4,156 +4,47 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-      /*  System.out.println("Hello world!");
-        System.out.println("Ana Karen Rios Ramirez");
-        int miEntero = 10;
-        float miPuntoFlotante = 0.5f;
-        double miDecimal = 22.5;
-        String miTexto = "Hola soy un texto en Java";
-        char miCaracter = 'a';
+        Scanner scanner = new Scanner(System.in);
 
-        Scanner miescaner = new Scanner(System.in);
+        //Desarrollar un programa que le pregunte al usuario 3 num.
+        // y decirle cuál es mayor de los 3
 
-        int numero;
-        numero = miescaner.nextInt();
+        /*int num1;
+        int num2;
+        int num3;
+        int num4;
+        System.out.println("Ingresa 4 números: ");
+        num1 = scanner.nextInt();
+        num2 = scanner.nextInt();
+        num3 = scanner.nextInt();
+        num4 = scanner.nextInt();
 
-        System.out.println("Mi numero que acabo de ingresar es: " + numero);*/
-
-        //Desarrollar un programa em Java que lea 2 numeros, lo sume y me muestre el resultado
-
-        /*System.out.println("Digite 2 numeros");
-
-        Scanner miescaner = new Scanner(System.in);
-
-        int numero1 = 0;
-        int num2 = 0;
-
-
-        numero1 = miescaner.nextInt();
-        System.out.println("El primer numero es: "+ numero1);
-        num2 = miescaner.nextInt();
-        System.out.println("El segundo numero es: "+ num2);
-
-        int suma = numero1+num2;
-
-        System.out.println("La suma es: "+ suma);*/
-        //Desarrollar un programa que le pida al usuario su nombre, su edad, su peso y su altura. Y que calcule su INC(peso entre la altura al cuadrado) Y al final que muestre todos los datos
-
-
-
-        /*Scanner miescaner = new Scanner(System.in);
-
-        String nombre = "";
-        int edad = 0;
-        double peso = 0;
-        double altura = 0;
-
-        System.out.println("Ingresa tu nombre");
-        nombre = miescaner.nextLine();
-
-        System.out.println("Ingresa tu edad");
-        edad = miescaner.nextInt();
-
-        System.out.println("Ingresa tu peso");
-        peso = miescaner.nextDouble();
-
-        System.out.println("Ingresa tu altura");
-        altura = miescaner.nextDouble();
-
-
-        System.out.println("Tu nombre es: " +nombre);
-
-        System.out.println("Tu edad es: " +edad);
-
-        System.out.println("Tu peso es: " +peso);
-
-        System.out.println("Tu altura es: " +altura);
-
-
-        double altura2 = altura * altura;
-        double imc  = peso/altura2;
-        System.out.println("Tu IMC es: " + imc);*/
-
-        //Desarrollar un programa que le pida al usuario su nombre, apellido, domicilio, cuánto citizó en 2022, cuánto impuesto va a pagar.
-        //Declarar constante de ISR-12%
-
-        /*Scanner miescaner = new Scanner(System.in);
-
-        String nombre;
-        String apellido;
-        String domic;
-        double cotizacion;
-        final double isr = 0.12;
-
-
-        System.out.println("Ingresa tu nombre");
-        nombre = miescaner.nextLine();
-
-        System.out.println("Ingresa tu apellido");
-        apellido = miescaner.nextLine();
-
-        System.out.println("Ingresa tu domicilio");
-        domic = miescaner.nextLine();
-
-        System.out.println("Ingresa cuánto cotizaste en 2022 ");
-        cotizacion = miescaner.nextDouble();
-
-        System.out.println("Tu nombre es: " +nombre);
-
-        System.out.println("Tu apellido es: " +apellido);
-
-        System.out.println("Tu domicilio es: " +domic);
-
-        System.out.println("Tu cotización es: " +cotizacion);
-
-        double impuesto = cotizacion*isr;
-
-        System.out.println("Tu impuesto a pagar es: " +impuesto);*/
-
-       // 1.- pedir al usuario su nombre, apellido, domicilio, precio de su carro
-        //2.- calcular el impuesto de tenencia- 1.3% de impuesto
-
-        /*Scanner miescaner = new Scanner(System.in);
-
-        String nombre;
-        String apellido;
-        String domic;
-        double preciocarro;
-        final double impuesto = 0.013;
-
-        System.out.println("Ingresa tu nombre");
-        nombre = miescaner.nextLine();
-
-        System.out.println("Ingresa tu apellido");
-        apellido = miescaner.nextLine();
-
-        System.out.println("Ingresa tu domicilio");
-        domic = miescaner.nextLine();
-
-        System.out.println("Ingresa el precio de tu carro");
-        preciocarro = miescaner.nextDouble();
-
-        System.out.println("Tu nombre es: " +nombre);
-
-        System.out.println("Tu apellido es: " +apellido);
-
-        System.out.println("Tu domicilio es: " +domic);
-
-        System.out.println("El precio de tu carro es: " +preciocarro);
-
-        double impuesto2 = preciocarro*impuesto;
-
-        System.out.println("Tu impuesto de tenencia es: " +impuesto2);*/
-
-        int a = 10;
-        int b = 5;
-        int c = 3;
-
-        if(a>b){
-            System.out.println("a es mayor que b");
-        }else{
-            System.out.println("a no es mayor que b");
+        if (num1 > num2 && num1 >num3 && num1 > num4){
+            System.out.println("El primer número es mayor");
         }
+        if (num2 > num1 && num2 > num3 && num2 > num4){
+            System.out.println("El segundo numero es el mayor");
+        }
+        if (num3 > num1 && num3 > num2 && num3 > num4){
+            System.out.println("El tercer numero es el mayor");
+        }
+        if (num4 > num1 && num4 > num2 && num4 > num3){
+            System.out.println("El cuarto numero es el mayor");
+        }
+
+
+        if (num1 == num2 && num1 == num3 && num3==num4 ){
+            System.out.println("Todos son iguales");
+        }/*
+         */
+
+        for (int i= 0; i<10; i++){
+            System.out.println("i vale: " +i);
+        }
+
+
+
+
 
 
 
