@@ -38,9 +38,61 @@ public class Main {
         }/*
          */
 
-        for (int i= 0; i<10; i++){
+        /*for (int i= 0; i<10; i++){
             System.out.println("i vale: " +i);
+        }*/
+
+        /*String nombre;
+
+
+        for (int i = 0; i < 5; i++) {
+            System.out.println("Ingresa tu nombre: ");
+            nombre = scanner.nextLine();//karen mau
+            System.out.println("Tu nombre es: " + nombre);
+        }*/
+        //Pedirle 1 numero al usuario  y mostrarlo pero elevarlo al cuadrado, y repetirlo 3 veces
+
+        /*int num;
+
+
+        for(int i = 0; i<3; i++){
+            System.out.println("Ingresa un numero: ");
+            num = scanner.nextInt();
+            int num2 = num*num;
+            System.out.println("El numero elevado al cuadrado es: "+num2);
+        }*/
+
+        /*int num;
+        int num2;
+
+        for(int i = 0; i<6; i++){
+            System.out.println("Ingresa el numero 1: ");
+            num = scanner.nextInt();
+            System.out.println("Ingresa el numero 2: ");
+            num2 = scanner.nextInt();
+            int result = num + num2;
+            System.out.println("La suma del los numeros son: "+result);
+        }*/
+
+        /*int edad;
+
+        for(int i = 0; i<4; i++){
+            System.out.println("Ingresa tu edad: ");
+            edad = scanner.nextInt();
+
+            if(edad>17){
+                System.out.println("Eres mayor de edad");
+            }else{
+                System.out.println("Eres menor de edad");
+            }
+        }*/
+
+        double miArrayDouble[] = new double[7];
+        for(int i = 0; i<7; i++){
+            miArrayDouble[i] = scanner.nextDouble();
         }
+
+
 
 
 
