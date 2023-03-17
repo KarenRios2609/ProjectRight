@@ -1,0 +1,3 @@
+fetch: Descarga commits, archivos, y referencias de un repositorio remoto a tu repositorio local.
+merge: Permite tomar las líneas independientes de desarrollo creadas por git branch e integrarlas en una sola rama.
+pull: Sincroniza el contenido remoto
